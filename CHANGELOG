@@ -1,0 +1,13 @@
+1.12.2 - 27.01.2015
+===================
+
+Release contains:
+  - Sources of Media SDK runtime shared library (built as libmfxhw64.so.1.12.2)
+  - Binary of VP8 bitstream packer static library (_studio/vp8e/vp8e_plugin/lib/libmfx_vp8e_bse_64.a)
+  - Sources of Media SDK VP8 hybrid encoder shared library (built as libmfx_vp8e_plugin_64.so.1.12.2)
+
+Known limitations:
+  - No segmentation support
+  - No API for temporal scalability
+  - No API for reference frames control
+  - No API for encoding of droppable frames
